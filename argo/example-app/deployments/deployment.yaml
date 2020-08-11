@@ -22,8 +22,8 @@ spec:
     spec:
       containers:
       - name: example-app
-        image: aimvector/python:1.0.1
-        imagePullPolicy: Always
+        image: aimvector/python:1.0.2
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5000
         resources:
